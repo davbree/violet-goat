@@ -20,7 +20,7 @@ export default class CtaSection extends React.Component {
                     )}
                     <div className={classNames('section__content', {'cell': _.get(section, 'image', null)})}>
                       {_.get(section, 'title', null) && (
-                      <h6 className="section__title">{_.get(section, 'title', null)}</h6>
+                      <h4 className="section__title">{_.get(section, 'title', null)}</h4>
                       )}
                       {_.get(section, 'content', null) && (
                       <div className="section__body text-block">
